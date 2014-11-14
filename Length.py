@@ -1,3 +1,3 @@
-string = input("Please enter a string: ")
+string = input('Please input a string: ')
 length = len(string)
-print("Your string was {0} characters long".format(length))
+print('The string is {0} characters long.'.format(length))

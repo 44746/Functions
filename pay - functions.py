@@ -6,7 +6,7 @@ def calculate_basic_pay(hours,pay):
     return total
     
 def calculate_overtime_pay(hours,pay):
-    overtime_hours = hours%40
+    overtime_hours = hours-40
     overtime_pay = pay*1.5
     total_overtime_pay = overtime_hours*overtime_pay
     basic = pay*40
